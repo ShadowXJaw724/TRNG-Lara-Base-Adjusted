@@ -1,8 +1,8 @@
-# TRLE - Project Fix Lara <!-- omit in toc -->
+# TRLE - Tomb Raider 4 Lara Base Adjusted <!-- omit in toc -->
 
-This project aims to fix all of the little bugs and oddities in Lara's animations. While it is sometimes impossible to know what the devolopers intended, the project aims to to stick as close to the base animations as possible. However, it is impossible to avoid subjective changes. Project Fix Lara should merely be uses as a basis for every new project, before new animations are added and old animations are altered to fit each builder's personal style.
+A fork of the original Fix Lara Project, this aims to further refine the base as well as add useful quality of life animations into Lara's kit, also potentially extending to a basic WAD that could be used as an AIO base. This doesn't follow the original's goal to staying faithful but rather building on top of the original and tweaking what could be done better.
 
-# Table of contents <!-- omit in toc -->
+# Table of contents [From the original Project] <!-- omit in toc -->
 - [1. Installation](#1-installation)
 	- [1.1. Copying Lara's Animations](#11-copying-laras-animations)
 	- [1.2. Copying Shotgun Animations](#12-copying-shotgun-animations)
@@ -15,7 +15,7 @@ This project aims to fix all of the little bugs and oddities in Lara's animation
 - [3. See also](#3-see-also)
 
 # 1. Installation
-Download the [latest release](https://github.com/Dermahn/Project-Fix-Lara-v2/releases/latest).
+Download the [latest release](https://github.com/Dermahn/Project-Fix-Lara-v2/releases/latest). This includes a playable level and the wad2 itself. 
 
 ## 1.1. Copying Lara's Animations
 There are two ways to copy Lara's main animations into you WAD.  
@@ -64,14 +64,10 @@ Level= data\MyFirstLevel, 100
 # 2. FAQ
 
 ## 2.1. Why do I need to use Tomb Editor for this?
-The only program that allows us to edit old WAD files is WADMerger, which has the unfortunate side effect that corrupts every animation a tiny bit. Using the new Wad2 format allows me to keep the animations in the best sate they can possibly be in.
+The original project wad in the WAD2 format, which WADMerger cannot use because of the feature WAD2 allows that won't translate to .WAD. 
 
-## 2.2. Do I need to use TRNG for this?
-Yes and no. The animations themselves can be used even with the original game engine. However, there are some tweaks that require TRNG specific features, such as scripting and plugins.
+## 2.2. Does this package require TRNG?
+The base WAD itself doesn't and should work out of the box with TR4/TRNG. However, some tweaks such as crawlspace running or other features that require scripting or plugins do require TR4.
 
-
-# 3. See also
-
-- [**TRLE - AOD Animations**][trle-aod_animations]
-
-[trle-aod_animations]: https://github.com/Joey79100/trle-aod_animations
+## 2.3 What's the point of this project? 
+It's intended as an updated base for people to work off of, and it's aimed to feature a faster set of animations that will make some moves more pleasant to use, such as ladders and shimmying corners.
